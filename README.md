@@ -1,38 +1,38 @@
-Litecore
+Marscore
 =======
 
 [![Build Status](https://travis-ci.org/bitpay/bitcore.svg?branch=master)](https://travis-ci.org/bitpay/bitcore)
 [![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore.svg)](https://coveralls.io/r/bitpay/bitcore)
 
-A pure, powerful core for your Litecoin project.
+A pure, powerful core for your Marscoin project.
 
-Litecore is a complete, native interface to the Litecoin network, and provides the core functionality needed to develop
-apps for Litecoin.
+Marscore is a complete, native interface to the Marscore network, and provides the core functionality needed to develop
+apps for Marscore.
 
 #Principles
 
 Litecoin is a powerful new peer-to-peer platform for the next generation of financial and social technology.
-The decentralized nature of the Litecoin network allows for highly resilient Litecoin infrastructure, and the developer
+The decentralized nature of the Marscoin network allows for highly resilient Marscoin infrastructure, and the developer
 community needs reliable, open-source tools to implement Litecoin apps and services.
 
-**Litecore unchains developers from fallible, centralized APIs, and provides the tools to interact with the real Litecoin network.**
+**Marscore unchains developers from fallible, centralized APIs, and provides the tools to interact with the real Litecoin network.**
 
 #Get Started
 
-Litecore runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
+Marscore runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```
-npm install Litecore
+npm install Marscore
 ```
 
 It is a collection of objects useful to Litecoin applications; class-like idioms are enabled via[Soop](https://github.com/bitpay/soop).
 In most cases, a developer will require the object's class directly. For instance:
 
 ```javascript
-var Litecore = require('Litecore');
-var Address = Litecore.Address;
-var Transaction = Litecore.Transaction;
-var PeerManager = Litecore.PeerManager;
+var Litecore = require('Marscore');
+var Address = Marscore.Address;
+var Transaction = Marscore.Transaction;
+var PeerManager = Marscore.PeerManager;
 ```
 
 #Examples
@@ -52,18 +52,18 @@ Javascript files available at [/examples](/examples) folder.
 
 Please use at your own risk.
 
-Litecore is still under heavy development and not quite ready for "drop-in" production use. If you find a security issue,
+Marscore is still under heavy development and not quite ready for "drop-in" production use. If you find a security issue,
 please email pembo210@gmail
 
 #Contributing
 
-Litecore needs some developer love. Please send pull requests for bug fixes, code optimization, and ideas for improvement.
+Marscore needs some developer love. Please send pull requests for bug fixes, code optimization, and ideas for improvement.
 
 #Browser support
 
 ## Building the browser bundle
 
-To build Litecore full bundle for the browser (this is automatically executed after you run `npm install`):
+To build Marscore full bundle for the browser (this is automatically executed after you run `npm install`):
 
 ```
 node browser/build.js -a
@@ -141,7 +141,7 @@ And then open coverage/lcov-report/index.html in your browser.
 
 #License
 
-**Bitcore Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).**
+**Litecore/Bitcore Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).**
 
 Copyright 2013-2014 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
 
